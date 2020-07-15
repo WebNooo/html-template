@@ -1,0 +1,209 @@
+footer {
+    margin-top: 53px;
+    background: #00122f;
+}
+
+footer .content {
+    min-height: 150px;
+    padding: 45px 0;
+}
+
+
+/*LEFT*/
+footer .content .side_left {
+    width: 25%;
+    float: left;
+}
+
+footer .content .side_left nav {
+    margin-top: 4px;
+    column-count: 2;
+}
+
+footer .content .side_left nav ul {
+    list-style: none;
+}
+
+footer .content .side_left nav ul li {
+    line-height: 30px;
+}
+
+footer .content .side_left nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer .content .side_left nav ul li a:hover {
+    color: #7b7b7b;
+}
+
+/*LEFT END*/
+
+
+/*CENTER*/
+footer .content .side_center {
+    width: 50%;
+    float: left;
+}
+
+footer .content .side_center .company_info {
+    width: 170px;
+    margin: 0 auto;
+    padding-left: 40px;
+}
+
+footer .content .side_center .company_info .logo {
+    margin-top: 15px;
+}
+
+footer .content .side_center .company_info .logo img {
+    width: 40px;
+    float: left;
+}
+
+footer .content .side_center .company_info .logo span {
+    color: white;
+    padding: 5px 6px;
+    width: 50px;
+    float: left;
+}
+
+footer .content .side_center .company_info .logo span:hover{
+    color: #7b7b7b;
+}
+
+
+footer .content .side_center .company_info nav {
+    padding-top: 10px;
+}
+
+footer .content .side_center .company_info nav ul {
+    list-style: none;
+}
+
+footer .content .side_center .company_info nav ul li {
+    line-height: 30px;
+}
+
+footer .content .side_center .company_info nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer .content .side_center .company_info nav ul li a:hover {
+    color: #7b7b7b;
+}
+
+/*CENTER END*/
+
+
+/*RIGHT*/
+footer .content .side_right {
+    width: 25%;
+    float: left;
+}
+
+footer .content .side_right .social {
+    width: 100%;
+    float: left;
+}
+footer .content .side_right .social a{
+    margin-top: 10px;
+    margin-left: 20px;
+    float: left;
+}
+
+/*footer .content .side_right .social a:nth-child(4n){*/
+/*    margin: 10px 1px 0 18px;*/
+/*    float: left;*/
+/*}*/
+
+footer .content .side_right .social .vk {
+    border: 1px solid white;
+    border-radius: 100%;
+    padding: 14px 10px;
+    background-image: url("../images/vk.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 20px;
+    height: 12px;
+}
+footer .content .side_right .social .vk:hover{
+    border: 1px solid #44b3d4;
+}
+
+footer .content .side_right .social .facebook {
+    border: 1px solid white;
+    border-radius: 100%;
+    padding: 10px 14px;
+    background-image: url("../images/facebook.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 12px;
+    height: 20px;
+}
+
+footer .content .side_right .social .facebook:hover{
+    border: 1px solid #44b3d4;
+}
+
+footer .content .side_right .social .twitter {
+    border: 1px solid white;
+    border-radius: 100%;
+    padding: 11px 10px;
+    background-image: url("../images/twitter.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 20px;
+    height: 18px;
+}
+footer .content .side_right .social .twitter:hover{
+    border: 1px solid #44b3d4;
+}
+
+footer .content .side_right .social .instagram {
+    border: 1px solid white;
+    border-radius: 100%;
+    padding: 10px 10px;
+    background-image: url("../images/instagram.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 20px;
+    height: 20px;
+}
+
+footer .content .side_right .social .instagram:hover{
+    border: 1px solid #44b3d4;
+}
+
+footer .content .side_right .contact {
+    padding-top: 75px;
+    width: 200px;
+    color: white;
+    font-size: 18px;
+    margin: 0 auto;
+}
+
+footer .content .side_right .contact .phone {
+    background-image: url("../images/call.png");
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    line-height: 60px;
+}
+
+footer .content .side_right .contact .email {
+    background-image: url("../images/envelope.png");
+    background-repeat: no-repeat;
+    padding-left: 30px;
+}
+
+/*RIGHT END*/
+
+
+footer .info {
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+    padding: 15px;
+    text-align: center;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.4);
+}

@@ -1,0 +1,145 @@
+header {
+    width: 100%;
+    background: #ffffff;
+    border-bottom: 2px solid #f4f4f4;
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.07);
+}
+
+header .top-text {
+    width: 100%;
+    height: 55px;
+    background: #00122f;
+    color: white;
+    line-height: 55px;
+}
+
+/*MAIN*/
+header .top-left {
+    height: 85px;
+    width: 50%;
+    float: left;
+    display: flex;
+    align-items: flex-end;
+}
+
+header .top-left .logo {
+    height: 40px;
+    width: 182px;
+    margin-bottom: 5px;
+}
+
+header .top-left .logo img {
+    float: left;
+    height: 40px;
+    width: 40px;
+}
+header .top-left .logo .text {
+    padding: 4px 0 0 8px;
+    float: left;
+    width: 50px;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+}
+
+header .top-left .city {
+    border-bottom: 1px dashed ;
+    color: #448ccb;
+    background-image: url("../images/down-arrow.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 15px;
+    margin-bottom: 14px;
+}
+
+
+header .top-right {
+    height: 85px;
+    width: 50%;
+    float: right;
+    position: relative;
+}
+
+
+header .top-right .weather {
+    position: absolute;
+    bottom: 0;
+    width: 133px;
+    color: #91919f;
+    text-align: right;
+    height: 25px;
+    margin-bottom: 8px;
+}
+
+header .top-right .weather .icon {
+    background-image: url("../images/cloudy.png");
+    background-repeat: no-repeat;
+    padding-right: 29px;
+    padding-top: 3px;
+    padding-bottom: 4px;
+    width: 29px;
+    margin-right: 10px;
+}
+
+header .top-right .search {
+    position: absolute;
+    bottom: 2px;
+    right: 0;
+    background: #f3f3f3;
+    border-radius: 25px;
+    width: 295px;
+    height: 45px;
+    line-height: 45px;
+    padding-left: 25px;
+
+}
+
+header .top-right .search input[type=text] {
+    border: none;
+    background: transparent;
+    width: 260px;
+    color: #919191;
+    font-size: 13px;
+    outline:none;
+}
+
+header .top-right .search .icon {
+    background-image: url("../images/search.png");
+    background-repeat: no-repeat;
+    padding-left: 17px;
+    color: #919191;
+}
+
+/*MAIN END*/
+
+
+/*MENU*/
+header .top-menu {
+    height: 85px;
+    line-height: 85px;
+}
+
+header .top-menu ul li {
+    float: left;
+    list-style: none;
+}
+
+header .top-menu ul li:not(:first-child):before {
+    padding: 20px;
+    color: #e1e1e5;
+    content: '/';
+}
+
+header .top-menu ul li a {
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+
+header .top-menu ul li a:hover {
+    color: #5272a1;
+    font-weight: bold;
+}
+
+/*MENU END*/
